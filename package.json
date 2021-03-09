@@ -1,6 +1,6 @@
 {
   "name": "cypress-testrail-reporter",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A Testrail reporter for cypress including TestRail API basic library",
   "main": "index.js",
   "private": false,
@@ -28,10 +28,10 @@
     "build": "npm run clean && npm run tsc"
   },
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "btoa": "^1.1.2",
     "chalk": "^2.4.1",
-    "mocha": "^2.2.5",
+    "mocha": "^8.3.0",
     "moment": "^2.22.1"
   },
   "devDependencies": {
